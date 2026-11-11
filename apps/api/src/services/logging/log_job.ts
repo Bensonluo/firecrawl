@@ -427,6 +427,7 @@ type LoggedRequest = {
     | "research_paper_inspect"
     | "research_paper_read"
     | "research_related_papers"
+    | "research_protein_lookup"
     | "code_search"
     | "gov_search";
   api_version: string;
@@ -1138,6 +1139,7 @@ export type ResearchRequestKind =
   | "research_paper_inspect"
   | "research_paper_read"
   | "research_related_papers"
+  | "research_protein_lookup"
   | "code_search"
   | "gov_search";
 
@@ -1146,6 +1148,7 @@ export type ResearchTableName =
   | "research_paper_inspects"
   | "research_paper_reads"
   | "research_related_papers"
+  | "research_protein_lookups"
   | "code_searches"
   | "gov_searches";
 
